@@ -4,7 +4,7 @@ const Modal = (props)=>{
     return(
         <>
             <button onClick={()=>{props.callback()}}>Show Modal</button>
-            {{props.showModal} && 
+            {props.showModal && 
             <div>
                 <h2>Modal Content</h2>
                 This is the modal content
