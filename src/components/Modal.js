@@ -7,7 +7,7 @@ const Modal = (props)=>{
             {props.showModal && 
             <div>
                 <h3>Modal Content</h3>
-                <h3>This is the modal content</h3>
+                <p>This is the modal content</p>
             </div>}
         </>
     )
